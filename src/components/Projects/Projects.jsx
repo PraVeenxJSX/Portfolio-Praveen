@@ -9,6 +9,10 @@ import chatify from "../../Assets/Projects/chatify.png";
 import suicide from "../../Assets/Projects/suicide.png";
 import emart from "../../Assets/Projects/emart.png";
 import bitsOfCode from "../../Assets/Projects/blog.png";
+import Todo from "../../Assets/Projects/Todo.png"
+import user from "../../Assets/Projects/user-info.png"
+import Netflix from "../../Assets/Projects/Netflix.png"
+import drinks from "../../Assets/Projects/drinks.png"
 
 
 function Projects() {
@@ -27,7 +31,7 @@ function Projects() {
             <ProjectCard
               imgPath={emart}
               isBlog={false}
-              title="E-Commerce Webssite"
+              title="E-Commerce Website"
               description="A E-Commerce website where items are able to add into cart also able to delete the added items from the cart, the application is"
               ghLink="https://github.com/PraVeenxJSX/Todo-Management"
               demoLink="https://react-e-commerce-zeta.vercel.app/"
@@ -36,59 +40,48 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={user}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              title="userInfo"
+              description="displays a list of user information by utilizing an API. It retrieves data such as user names, emails, and other relevant details, and presents them in a structured list format. The component ensures data is dynamically updated by making API calls whenever necessary, providing a seamless experience for users viewing the information. It also handles loading states and potential errors during data retrieval, ensuring a robust and user-friendly interface."
+              ghLink="https://github.com/PraVeenxJSX/user-info"
+              demoLink="https://userss-dataa.netlify.app/"              
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={Netflix}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={leaf}
-              isBlog={false}
-              title="Plant AI"
+              title="Netflix website"
               description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
+              ghLink="https://github.com/PraVeenxJSX/Netflix-Clone"
+              demoLink="https://main--netflixother.netlify.app/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={suicide}
+              imgPath={Todo}
               isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
+              title="A Todo Management"
+              description="A Todo Management Application which allows users to enter their list of works"
+              ghLink="https://github.com/PraVeenxJSX/Todo-Management"
+              demoLink="https://todolistmanagement-1.netlify.app/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={emotion}
+              imgPath={drinks}
               isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
+              title="A Drink Application"
+              description="The Drink Finder App is a user-friendly web application that allows you to search for and discover a wide variety of drinks. Powered by the CocktailDB API, the app enables users to easily find detailed information about their favorite beverages, including ingredients, preparation instructions, and more. Whether you're looking for a classic cocktail or exploring new drink ideas, this app provides a seamless and enjoyable experience. Simply enter the name of a drink in the search bar, and instantly access a rich database of drink recipes and images."
+              ghLink="https://github.com/PraVeenxJSX/cocktaiApi"
+              demoLink="https://drinks-wheat.vercel.app/"
             />
           </Col>
+
         </Row>
       </Container>
     </Container>
