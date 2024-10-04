@@ -9,11 +9,11 @@ import chatify from "../../Assets/Projects/chatify.png";
 import suicide from "../../Assets/Projects/suicide.png";
 import emart from "../../Assets/Projects/emart.png";
 import bitsOfCode from "../../Assets/Projects/blog.png";
-import Todo from "../../Assets/Projects/Todo.png"
-import user from "../../Assets/Projects/user-info.png"
-import Netflix from "../../Assets/Projects/Netflix.png"
-import drinks from "../../Assets/Projects/drinks.png"
-
+import Todo from "../../Assets/Projects/Todo.png";
+import user from "../../Assets/Projects/user-info.png";
+import Netflix from "../../Assets/Projects/Netflix.png";
+import drinks from "../../Assets/Projects/drinks.png";
+import ancons from "../../Assets/Projects/ancons.png";
 
 function Projects() {
   return (
@@ -27,6 +27,16 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={ancons}
+              isBlog={false}
+              title="Ancons International"
+              description="ANCONS International represents universities in the USA, focusing on facilitating the admission process for international students who wish to study in American institutions. ANCONS provides assistance with application procedures, guiding students through visa requirements, and offering support throughout the entire process of studying in the USA."
+              ghLink="https://github.com/PraVeenxJSX/ancons-frontend"
+              demoLink="https://ancons-frontend.vercel.app/"
+            />
+          </Col>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={emart}
@@ -45,7 +55,7 @@ function Projects() {
               title="userInfo"
               description="displays a list of user information by utilizing an API. It retrieves data such as user names, emails, and other relevant details, and presents them in a structured list format. The component ensures data is dynamically updated by making API calls whenever necessary, providing a seamless experience for users viewing the information. It also handles loading states and potential errors during data retrieval, ensuring a robust and user-friendly interface."
               ghLink="https://github.com/PraVeenxJSX/user-info"
-              demoLink="https://userss-dataa.netlify.app/"              
+              demoLink="https://userss-dataa.netlify.app/"
             />
           </Col>
 
@@ -81,7 +91,6 @@ function Projects() {
               demoLink="https://drinks-wheat.vercel.app/"
             />
           </Col>
-
         </Row>
       </Container>
     </Container>
