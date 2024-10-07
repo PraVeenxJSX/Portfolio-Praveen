@@ -39,7 +39,7 @@ function NavBar() {
     >
       <Container>
         <Navbar.Brand href="/" className="d-flex">
-        <h1 className="font-bold col text-indigo-500 text-2xl" >PK.</h1>
+          <h1 className="font-bold col text-indigo-500 text-2xl">PK.</h1>
           {/* <img src={logo} className="img-fluid bg-gray-100 logo" alt="brand" /> */}
         </Navbar.Brand>
         <Navbar.Toggle
@@ -83,7 +83,7 @@ function NavBar() {
               </Nav.Link>
             </Nav.Item>
 
-            {/* <Nav.Item>
+            <Nav.Item>
               <Nav.Link
                 as={Link}
                 to="/resume"
@@ -91,7 +91,7 @@ function NavBar() {
               >
                 <CgFileDocument style={{ marginBottom: "2px" }} /> Resume
               </Nav.Link>
-            </Nav.Item> */}
+            </Nav.Item>
 
             {/* <Nav.Item>
               <Nav.Link

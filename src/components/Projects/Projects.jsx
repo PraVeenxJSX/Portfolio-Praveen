@@ -14,6 +14,7 @@ import user from "../../Assets/Projects/user-info.png";
 import Netflix from "../../Assets/Projects/Netflix.png";
 import drinks from "../../Assets/Projects/drinks.png";
 import ancons from "../../Assets/Projects/ancons.png";
+import users from "../../Assets/Projects/usersMern.png";
 
 function Projects() {
   return (
@@ -45,6 +46,17 @@ function Projects() {
               description="A E-Commerce website where items are able to add into cart also able to delete the added items from the cart, the application is"
               ghLink="https://github.com/PraVeenxJSX/Todo-Management"
               demoLink="https://react-e-commerce-zeta.vercel.app/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={users}
+              isBlog={false}
+              title="User Management"
+              description="A website of users data where, user does CRUD operations in the application "
+              ghLink="https://github.com/PraVeenxJSX/reactTask.git"
+              demoLink="https://usersdataview.vercel.app/"
             />
           </Col>
 

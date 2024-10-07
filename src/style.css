@@ -11,7 +11,7 @@ html {
     rgba(12, 10, 22, 0.863)
   );
 
-  --imp-text-color: #70a7f0;
+  --imp-text-color: #c770f0;
 }
 
 .purple {
@@ -57,18 +57,18 @@ button:focus {
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: #191a50;
+  background: #2d1950;
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: rgba(121, 176, 216, 0.959);
+  background: rgba(178, 121, 216, 0.959);
   border-radius: 12px;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: rgba(130, 205, 235, 0.911);
+  background: rgba(222, 130, 235, 0.911);
   border-radius: 12px;
 }
 
@@ -97,7 +97,7 @@ button:focus {
 
 .navbar-toggler span {
   display: block !important;
-  background-color: #506ef4 !important;
+  background-color: #be50f4 !important;
   height: 4px !important;
   width: 27px !important;
   margin-top: 5px !important;
@@ -194,7 +194,7 @@ button:focus {
   height: 5px;
   width: 0;
   border-radius: 16px;
-  background: #6a5bf5;
+  background: #c95bf5;
   bottom: 1px;
   left: 0;
   z-index: -1;
@@ -281,17 +281,17 @@ button:focus {
 }
 
 .main-name {
-  color: #6c5ff8;
+  color: #cd5ff8;
 }
 
 .Typewriter__wrapper {
   font-size: 2.2em !important;
-  color: #6c5ff8 !important;
+  color: #be6adf !important;
   font-weight: 600 !important;
 }
 .Typewriter__cursor {
   font-size: 2.4em !important;
-  color: #6c5ff8 !important;
+  color: #b562d6 !important;
 }
 
 @media (max-width: 767px) {
@@ -340,30 +340,35 @@ button:focus {
   text-align: center !important;
   padding-top: 25px;
   color: white !important;
-  
 }
 
-.home-about-social-links {
+..home-about-social-links {
+  display: flex !important;
   justify-content: center !important;
+  align-items: center !important;
   padding-top: 15px !important;
-  display: inline-block !important;
   position: relative !important;
   padding-inline-start: 0 !important;
-  
+}
+
+.social-icons {
+  display: inline-flex !important;
+  padding-right: 15px;
+  padding-left: 15px;
 }
 
 .home-social-icons {
-  position: relative !important;
-  display: inline-block !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
   width: 40px !important;
   height: 40px !important;
-  text-align: center !important;
   font-size: 1.2em !important;
   line-height: 2em !important;
   background: rgba(255, 255, 255, 0.972) !important;
   border-radius: 50% !important;
   transition: 0.5s !important;
- justify-content: center;
+  position: relative !important;
 }
 
 .home-social-icons::before {
@@ -374,7 +379,7 @@ button:focus {
   width: 100%;
   height: 100%;
   border-radius: 50%;
-  background: #6c5ff8;
+  background: #68187a;
   transition: 0.5s;
   transform: scale(0.9);
   z-index: -1;
@@ -382,25 +387,19 @@ button:focus {
 
 .home-social-icons:hover::before {
   transform: scale(1.1);
-  box-shadow: 0 0 15px #6c5ff8ac;
+  box-shadow: 0 0 15px #801f95;
 }
 
 .home-social-icons:hover {
-  color: #3d209e;
-  box-shadow: 0 0 5px #6c5ff8;
-  text-shadow: 0 0 2px #6c5ff8d0;
-  justify-content: center;
-}
-
-.social-icons {
-  display: inline-block !important;
-  padding-right: 15px;
-  padding-left: 15px;
+  color: #87209e;
+  box-shadow: 0 0 5px #87209e;
+  text-shadow: 0 0 2px #87209e;
 }
 
 .icon-colour {
-  color: #6c5ff8 !important;
+  color: #700c86 !important;
 }
+
 
 /* --------- */
 /* Footer */
@@ -443,7 +442,7 @@ button:focus {
 }
 
 .blockquote-footer {
-  color: #6c5ff8 !important;
+  color: #a588c0 !important;
 }
 /* --------- */
 /* Projects */
@@ -505,7 +504,7 @@ button:focus {
 .blog-card-view:hover {
   transform: scale(1.02) !important;
   overflow: hidden !important;
-  box-shadow: 0 3px 3px 5px rgba(105, 88, 173, 0.65) !important;
+  box-shadow: 0 3px 3px 5px rgba(155, 88, 173, 0.65) !important;
 }
 
 .card-img-top {
@@ -522,14 +521,14 @@ button:focus {
 
 .btn-primary {
   color: #fff !important;
-  background-color: #6c5ff8 !important;
-  border-color: #6c5ff8 !important;
+  background-color: #623686 !important;
+  border-color: #623686 !important;
 }
 
 .btn-primary:hover {
   color: #fff !important;
-  background-color: #6c5ff8 !important;
-  border-color: #6c5ff8 !important;
+  background-color: #6d20c5d7 !important;
+  border-color: #6d20c5d7 !important;
 }
 .btn:focus {
   outline: none !important;
@@ -578,7 +577,7 @@ button:focus {
 .tech-icons:hover {
   transform: scale(1.05) !important;
   overflow: hidden !important;
-  border: 2.2px solid rgba(127, 115, 230, 0.883) !important;
+  border: 2.2px solid rgba(197, 115, 230, 0.883) !important;
 }
 .tech-icon-images {
   padding: 20px !important;
@@ -649,14 +648,14 @@ button:focus {
 .resume .resume-item {
   padding: 0 0 10px 25px;
   margin-top: -2px;
-  border-left: 2px solid #6c5ff8;
+  border-left: 2px solid #8a49a8;
   position: relative;
 }
 
 .resume .resume-item .resume-title {
   line-height: 18px;
   font-size: 0.9em;
-  background: #343d795d;
+  background: #5234795d;
   padding: 8px 15px;
   display: inline-block;
   font-weight: 600;
@@ -686,7 +685,7 @@ button:focus {
   left: -9px;
   top: 0;
   background: #fff;
-  border: 2px solid #5949a8;
+  border: 2px solid #8a49a8;
 }
 
 .like-item {
@@ -696,8 +695,8 @@ button:focus {
 }
 
 .like-btn {
-  background-color: #6c5ff8 !important;
-  border-color: #6c5ff8 !important;
+  background-color: #934cce5e !important;
+  border-color: #934cce5e !important;
   padding: 0.25rem 0.98rem !important;
   border-radius: 5px !important;
   line-height: 1.4 !important;
@@ -706,8 +705,8 @@ button:focus {
 
 .like-btn:hover {
   transform: translateY(-2px) !important;
-  background-color: #6c5ff8 !important;
-  border-color: #6c5ff8 !important;
+  background-color: #a24dd386 !important;
+  border-color: #a24dd386 !important;
 }
 
 .animate-like {
@@ -731,7 +730,7 @@ button:focus {
 
 .fork-btn-inner {
   line-height: 1.4em !important;
-  background-color: #4c59ce5e !important;
+  background-color: #934cce5e !important;
   padding: 0.25rem 1.1rem !important;
   vertical-align: middle !important;
   text-align: center !important;
@@ -739,11 +738,9 @@ button:focus {
 
 .fork-btn-inner:hover {
   transform: translateY(-2px) !important;
-  background-color: #6c5ff8 !important;
-  border-color: #6c5ff8 !important;
+  background-color: #a24dd386 !important;
+  border-color: #a24dd386 !important;
 }
 .fork-btn-inner::after {
   display: none !important;
 }
-
-
