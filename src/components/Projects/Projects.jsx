@@ -15,6 +15,7 @@ import Netflix from "../../Assets/Projects/Netflix.png";
 import drinks from "../../Assets/Projects/drinks.png";
 import ancons from "../../Assets/Projects/ancons.png";
 import users from "../../Assets/Projects/usersMern.png";
+import chatt from "../../Assets/Projects/Screenshot2025-04-28120443.png";
 
 function Projects() {
   return (
@@ -33,12 +34,23 @@ function Projects() {
               imgPath={ancons}
               isBlog={false}
               title="Ancons International"
-              description="ANCONS International represents universities in the USA, focusing on facilitating the admission process for international students who wish to study in American institutions. ANCONS provides assistance with application procedures, guiding students through visa requirements, and offering support throughout the entire process of studying in the USA."
+              description="ANCONS International represents universities in the USA."
               ghLink="https://github.com/PraVeenxJSX/ancons-frontend"
               demoLink="https://ancons-frontend.vercel.app/"
             />
           </Col>
           <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={chatt}
+              isBlog={false}
+              title="Chat Website"
+              description="A chat application where a user signup and login to the website and able to chat with the users who are available"
+              ghLink="https://github.com/PraVeenxJSX/Todo-Management"
+              demoLink="https://react-e-commerce-zeta.vercel.app/"
+            />
+          </Col>
+
+           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={emart}
               isBlog={false}
